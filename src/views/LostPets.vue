@@ -277,7 +277,7 @@
 
 .right-container {
   border-radius: 0;
-
+  background-color: #00000000;
 }
     .lost-pets-view {
       margin-top: 20vh;
