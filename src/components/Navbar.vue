@@ -75,22 +75,6 @@ header {
   color: #3333335c;
 }
 
-button {
-  border: none;
-  text-align: center;
-  padding: 7px 25px;
-  border-radius: 30px;
-  background-color: #069e6f;
-  color: white;
-  font-size: 18px;
-  transition: 400ms;
-}
-
-button:hover {
-  background-color: #069e6e86;
-  cursor: pointer;
-  color: #ffffff64;
-}
 
 /* Estilos do menu "hambúrguer" para telas menores */
 .hamburger {
@@ -108,7 +92,7 @@ button:hover {
   cursor: pointer;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 0.1rem;
   display: none;
 }
 
@@ -123,6 +107,7 @@ button:hover {
     width: 70%;
     background-color: #f5f5f5;
     padding: 1rem 2rem;
+    gap: 3rem;
   }
   .nav-list {
     position: fixed;
@@ -132,13 +117,12 @@ button:hover {
     height: 100%;
     background-color: #f5f5f5;
     flex-direction: column;
-    gap: 2.5rem;
     padding: 2rem;
     border-radius: 0 0 0 15px;
     transform: translateX(100%);
     transition: transform 0.3s ease;
     display: flex;
-    z-index: 10;
+    z-index: 1000;
   }
 
   .nav-list.active {

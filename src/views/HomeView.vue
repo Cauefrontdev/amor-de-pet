@@ -4,10 +4,6 @@
 
 <template>
   <div class="container">
-    <img src="https://i.imgur.com/ajXCRQ7.png" alt="" class="pata-vetor-1">
-    <img src="https://i.imgur.com/ajXCRQ7.png" alt="" class="pata-vetor-2">
-    <img src="https://i.imgur.com/jNuWw1Q.png" alt="" class="forma-vetor-1">
-    <img src="https://i.imgur.com/jNuWw1Q.png" alt="" class="forma-vetor-2">
     <img src="https://i.imgur.com/TCuTaSW.png" alt="imagem-de-pet" class="pets">
     <div class="text-box">
       <img src="https://i.imgur.com/AGZemED.png" alt="logo" class="logo">
@@ -49,39 +45,10 @@
     }
   }
 
-  .pata-vetor-1 {
-    position: absolute;
-    max-width: 10%;
-    right: 15%;
-    top: 0;
-  }
 
-  .pata-vetor-2 {
-    position: absolute;
-    max-width: 10%;
-    left:15%;
-    bottom: 0;
-    transform: rotate(180deg);
-  }
-
-  .forma-vetor-1 {
-    position: absolute;
-    max-width: 15%;
-    right: 20%;
-    bottom: -10%;
-    z-index: 100;
-  }
-
-  .forma-vetor-2 {
-    position: absolute;
-    max-width: 15%;
-    left:15%;
-    top: 0%;
-    transform: rotate(120deg);
-    z-index: -1;
-  }
 
   @media (max-width: 844px) {
+
     .pets {
     position: absolute;
     bottom: 0;
@@ -113,39 +80,6 @@
     }
   }
 
-  .pata-vetor-1 {
-    position: absolute;
-    max-width: 20%;
-    right: 15%;
-    top: 10%;
-  }
-
-  .pata-vetor-2 {
-    position: absolute;
-    z-index: 100;
-    max-width: 20%;
-    left:5%;
-    bottom: 20%;
-    transform: rotate(180deg);
-  }
-
-  .forma-vetor-1 {
-    position: absolute;
-    max-width: 25%;
-    right: -5%;
-    bottom: 0%;
-    z-index: 100;
-    z-index: 1;
-  }
-
-  .forma-vetor-2 {
-    position: absolute;
-    max-width: 25%;
-    left:20px;
-    top: 5%;
-    transform: rotate(120deg);
-    z-index: -1;
-  }
 
 }
 </style>
